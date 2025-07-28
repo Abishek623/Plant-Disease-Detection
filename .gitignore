@@ -1,0 +1,39 @@
+# Python environment and build artifacts
+tf-env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Data (if not part of the core repository or very large)
+# If your 'data/' folder is too large (many GBs), consider using Git LFS or hosting separately.
+# For now, we'll assume it's small enough to commit.
+# data/ # Uncomment this if you DON'T want to commit your 'data' folder
+
+# Models
+# Your plant_disease_model_v2.h5 is ~2.8MB, which is fine to commit directly.
+# If you decide NOT to commit .h5 files (e.g., if they become very large),
+# uncomment the line below. For now, it's recommended to commit it.
+# *.h5
+
+# HuggingFace demo (if you kept it as a separate app)
+# If you want to push your 'huggingface_demo/' folder to GitHub, REMOVE the line below.
+# If you do NOT want to push it, keep it.
+huggingface_demo/
